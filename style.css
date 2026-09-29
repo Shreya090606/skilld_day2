@@ -1,0 +1,189 @@
+/* ================= BODY ================= */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+}
+
+
+/* ================= MAIN CONTAINER ================= */
+
+.main-container {
+    background-color: lavender;
+    min-height: 100vh;
+    padding: 50px;
+}
+
+
+/* ================= PROFILE SECTION ================= */
+
+.profile-section {
+    margin-bottom: 50px;
+}
+
+
+/* Profile Photo */
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+
+    border-radius: 50%;
+
+    border: 3px solid white;
+}
+
+
+/* Student Name */
+
+.student-name {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+
+/* College Information */
+
+.college-info {
+    font-size: 18px;
+    color: #555;
+}
+
+
+/* Hobbies */
+
+.hobbies-title {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.hobbies-list {
+    padding-left: 20px;
+    color: #444;
+}
+
+
+/* ================= EDUCATION SECTION ================= */
+
+.education-section {
+    margin-top: 20px;
+}
+
+
+/* Education Card */
+
+.education-card {
+    background-color:white;
+
+    border: none;
+
+    border-radius: 15px;
+
+    overflow: hidden;
+
+    text-align: center;
+
+    min-height: 180px;
+}
+
+
+/* Education Image */
+
+/* .education-image {
+    width: 100%;
+    height: 100px;
+
+    object-fit: contain;
+
+    padding: 15px;
+} */
+/* .education-image {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    padding: 0;
+    background-color: white;
+} */
+.college-image-box {
+    width: 100%;
+    height: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    overflow: hidden;
+}
+
+.college-image-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/* Education Card Title */
+
+.education-card .card-title {
+    font-size: 20px;
+    color: #555;
+    font-weight: 500;
+}
+
+
+/* ================= ACHIEVEMENTS ================= */
+
+.achievement-section {
+    margin-top: 10px;
+}
+
+
+.achievement-card {
+    background-color: pink;
+
+    border: none;
+
+    border-radius: 15px;
+}
+
+
+.achievement-title {
+    text-align: center;
+
+    font-weight: bold;
+
+    color: #444;
+}
+
+
+.achievement-list {
+    color: #444;
+
+    line-height: 1.8;
+}
+
+
+/* ================= RESPONSIVE DESIGN ================= */
+
+@media (max-width: 768px) {
+
+    .main-container {
+        padding: 25px;
+    }
+
+    .profile-section {
+        text-align: center;
+    }
+
+    .student-name {
+        margin-top: 20px;
+        font-size: 28px;
+    }
+
+    .education-section {
+        margin-top: 30px;
+    }
+
+}
